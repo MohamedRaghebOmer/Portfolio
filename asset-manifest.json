@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.0cc1da2f.css",
+    "main.js": "/Portfolio/static/js/main.59b46e0f.js",
+    "static/js/453.ace21015.chunk.js": "/Portfolio/static/js/453.ace21015.chunk.js",
+    "static/media/dvld-dashboard.png": "/Portfolio/static/media/dvld-dashboard.fd78167bddf5b5e9a104.png",
+    "static/media/profile-casual.jpg": "/Portfolio/static/media/profile-casual.5c865142daa675c50023.jpg",
+    "static/media/profile-professional.jpg": "/Portfolio/static/media/profile-professional.a1910a2fbfd6f60dd477.jpg",
+    "static/media/sms-swagger.png": "/Portfolio/static/media/sms-swagger.095a645c05181faaa4a3.png",
+    "static/media/Mohamed_Ragheb_Omer_CV.pdf": "/Portfolio/static/media/Mohamed_Ragheb_Omer_CV.6837c7660f2cb90b1d36.pdf",
+    "static/media/bank-dashboard.png": "/Portfolio/static/media/bank-dashboard.3da471acaa00643a9da2.png",
+    "static/media/SQL.svg": "/Portfolio/static/media/SQL.52fc098126b8b29ddd950a944b5d0026.svg",
+    "static/media/Docker.svg": "/Portfolio/static/media/Docker.b02bde45de78f064309327b59c188428.svg",
+    "static/media/Postman.svg": "/Portfolio/static/media/Postman.731600ddded53e009b672b2130661997.svg",
+    "static/media/pre.svg": "/Portfolio/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/Portfolio/index.html",
+    "static/media/C++.svg": "/Portfolio/static/media/C++.a87de30de97ce5ed259ace5ef23c7e91.svg",
+    "static/media/Git.svg": "/Portfolio/static/media/Git.9da88573cca3c97a3a1523ae09d93654.svg",
+    "main.0cc1da2f.css.map": "/Portfolio/static/css/main.0cc1da2f.css.map",
+    "main.59b46e0f.js.map": "/Portfolio/static/js/main.59b46e0f.js.map",
+    "453.ace21015.chunk.js.map": "/Portfolio/static/js/453.ace21015.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0cc1da2f.css",
+    "static/js/main.59b46e0f.js"
+  ]
+}
