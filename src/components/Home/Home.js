@@ -52,7 +52,7 @@ function Home() {
             <p>
               Feel free to <span className="purple">connect </span>with me
               <br />
-              <span className="purple">Email:</span> mohamedraghebomer@gmail.com
+              <span className="purple">Email:</span> contact@mohamedragheb.dev
               <br />
               <span className="purple">Phone &amp; WhatsApp:</span>{" "}
               +201002608684
@@ -80,7 +80,7 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="mailto:mohamedraghebomer@gmail.com"
+                  href="mailto:contact@mohamedragheb.dev"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

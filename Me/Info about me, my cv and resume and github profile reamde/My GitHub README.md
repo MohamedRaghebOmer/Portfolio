@@ -282,7 +282,7 @@ I completed a structured roadmap and earned certificates for each course on my L
 
 &#x20; </a>
 
-&#x20; <a href="mailto:mohamedraghebomer@gmail.com">
+&#x20; <a href="mailto:contact@mohamedragheb.dev">
 
 &#x20;   <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge\&logo=gmail\&logoColor=white" />
 
