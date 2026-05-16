@@ -1,17 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
+import homeLogo from "../../Assets/profile-professional.jpg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-import Techstack from "../About/Techstack";
-import Github from "../About/Github";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { AiFillGithub, AiOutlineMail } from "react-icons/ai";
+import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 
 function Home() {
   return (
@@ -30,7 +24,7 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                <strong className="main-name"> MOHAMED RAGHEB OMER</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -41,7 +35,7 @@ function Home() {
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
                 src={homeLogo}
-                alt="home pic"
+                alt="profile"
                 className="img-fluid"
                 style={{ maxHeight: "450px" }}
               />
@@ -57,11 +51,16 @@ function Home() {
             <h1>Find Me On</h1>
             <p>
               Feel free to <span className="purple">connect </span>with me
+              <br />
+              <span className="purple">Email:</span> mohamedraghebomer@gmail.com
+              <br />
+              <span className="purple">Phone &amp; WhatsApp:</span>{" "}
+              +201002608684
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/MohamedRaghebOmer"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -71,17 +70,7 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://linkedin.com/in/mohamedraghebomer"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -91,12 +80,23 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="mailto:mohamedraghebomer@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiOutlineMail />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://wa.me/201002608684"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
+                  title="+201002608684"
                 >
-                  <AiFillInstagram />
+                  <FaWhatsapp />
                 </a>
               </li>
             </ul>

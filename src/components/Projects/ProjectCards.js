@@ -10,7 +10,7 @@ function ProjectCards(props) {
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
+        <Card.Text className="project-description">
           {props.description}
         </Card.Text>
         <Button variant="primary" href={props.ghLink} target="_blank">
@@ -22,11 +22,17 @@ function ProjectCards(props) {
 
         {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
 
-        {!props.isBlog && props.demoLink && (
+        {!props.isBlog && props.demoLink !== undefined && (
           <Button
             variant="primary"
             href={props.demoLink}
-            target="_blank"
+            target={props.demoLink ? "_blank" : undefined}
+            rel={props.demoLink ? "noreferrer" : undefined}
+            onClick={(event) => {
+              if (!props.demoLink) {
+                event.preventDefault();
+              }
+            }}
             style={{ marginLeft: "10px" }}
           >
             <CgWebsite /> &nbsp;

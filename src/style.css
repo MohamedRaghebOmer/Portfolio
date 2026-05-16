@@ -159,6 +159,12 @@ button:focus {
   color: rgb(250, 250, 250) !important;
 }
 
+.navbar-brand.brand-text {
+  font-size: 1.4rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.04em !important;
+}
+
 .logo {
   height: 1.4em !important;
   width: 2.5em !important;
@@ -472,6 +478,11 @@ button:focus {
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
 }
+
+.project-description {
+  text-align: left;
+  line-height: 1.6;
+}
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
@@ -634,6 +645,15 @@ button:focus {
   justify-content: center;
 }
 
+.resume-image {
+  width: 100%;
+  max-width: 1100px;
+  height: 900px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(9, 5, 29, 0.35);
+  object-fit: contain;
+}
+
 .resume-left {
   padding-right: 80px !important;
 }
@@ -651,6 +671,11 @@ button:focus {
   .resume-right {
     padding-right: 15px !important;
     padding-left: 15px !important;
+  }
+
+  .resume-image {
+    max-width: 100%;
+    height: auto;
   }
 }
 .resume .resume-title {

@@ -1,0 +1,13 @@
+DVLD — Driving & Vehicle License Department • GitHub [https://www.github.com/MohamedRaghebOmer/DVLD-Driving-Vehicle-License-Department]
+February 2026 - April 2026
+DVLD is a comprehensive desktop application developed to manage the full lifecycle of driving licenses,
+including multi-stage testing, financial transactions, and regulatory compliance. It ensures road safety by
+strictly enforcing legal requirements through a sophisticated business logic layer.
+• Designed normalized database schema with relationships and constraints.
+• Built stored procedures to handle complex business logic directly at the database level.
+• Developed a multi-layered validation engine to automate license eligibility checks and eliminate duplicate
+applications.
+• Enforced age and license-class eligibility rules while preventing duplicate or conflicting applications.
+
+Project Live Demo: https://youtu.be/3lIlErl78XY
+GitHub Repo: https://github.com/MohamedRaghebOmer/DVLD-Driving-Vehicle-License-Department

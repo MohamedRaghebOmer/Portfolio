@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/profile-casual.jpg";
 import Tilt from "react-parallax-tilt";
 
 function Home2() {
@@ -13,38 +13,29 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              I’m Mohamed Ragheb Omer, an ASP.NET Core backend developer who
+              builds strong, clean, and scalable systems.
               <br />
-              <br />
-              I’m proficient in
+              <br />I specialize in
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  C#, ASP.NET Core, SQL Server, and clean architecture{" "}
                 </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
+              with a focus on reliable APIs and data integrity.
               <br />
               <br />
-              My key areas of interest include developing
+              My key areas of interest include
               <i>
                 <b className="purple">
                   {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                  RESTful APIs, authentication & authorization, and scalable
+                  backend architecture.{" "}
                 </b>
               </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
-              <br />
-              <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
-              <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
-              </i>
+              I’m also expanding my web development skills to grow into a
+              full-stack developer over time.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

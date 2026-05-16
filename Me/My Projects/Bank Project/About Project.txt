@@ -1,0 +1,13 @@
+A robust, professional-grade simulation of a banking ecosystem built entirely in C++. This project is a mastery showcase of Object-Oriented Design (OOD) and Low-Level Data Management.
+Unlike standard applications that rely on SQL engines, this system implements a custom-built data persistence layer, handling all data serialization, parsing, and retrieval using Flat Text Files. This approach demonstrates a deep understanding of data structures, string manipulation, and algorithm efficiency without external dependencies.
+
+* Designed and implemented a complete Bank Management System in C++ using Modular OOP architecture with full separation between Core, UI, and Utility layers.
+
+* Built a custom flat-file persistence engine with object serialization/deserialization, simulating database operations without using SQL or external databases.
+
+* Developed secure authentication and Role-Based Access Control (RBAC) using bitwise permissions with detailed login and transaction auditing.
+
+* Implemented banking operations including deposits, withdrawals, transfers, and real-time currency exchange with transaction logging and validation mechanisms.
+
+Project Live Demo: https://youtu.be/nf8Ne5Q4CZU?si=m39tHL36MZ9M_kL3
+GitHub Repo: https://github.com/MohamedRaghebOmer/Bank-Project

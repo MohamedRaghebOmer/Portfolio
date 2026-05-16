@@ -1,0 +1,14 @@
+SMS is a layered backend system for managing supermarket operations, including authentication,
+authorization, auditing, sales, returns, customer accounts, inventory, and financial ledger tracking. The system
+was designed with scalability, maintainability, and security in mind using clean layered architecture principles.
+• Implemented a role-based and entity-level permission system using bitwise operations for fine-grained
+authorization.
+• Applied JWT-based authentication with secure password hashing and session management.
+• Designed a clean, scalable layered architecture separating Domain, Application, and Infrastructure
+concerns.
+• Developed full sales and return workflows including inventory updates and financial calculations.
+• Designed a fully normalized relational database supporting complex business workflows (sales, returns,
+customers, ledger).
+
+Project Live Demo: [Coming Soon]
+GitHub Repo: https://github.com/MohamedRaghebOmer/SMS-Supermarket-Management-System

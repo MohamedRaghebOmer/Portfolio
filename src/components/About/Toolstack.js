@@ -1,29 +1,35 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import macOs from "../../Assets/TechIcons/Apple MacOSX.svg";
-import chrome from "../../Assets/TechIcons/Google Chrome.svg";
-import vsCode from "../../Assets/TechIcons/vscode.svg";
-import intelliJ from "../../Assets/TechIcons/intellij-idea.svg";
+import {
+  SiGit,
+  SiPostman,
+  SiVisualstudio,
+  SiVisualstudiocode,
+} from "react-icons/si";
+import SQL from "../../Assets/TechIcons/SQL.svg";
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <img src={macOs} alt="macOs" className="tech-icon-images" />
-        <div className="tech-icons-text">Mac Os</div>
+        <SiVisualstudio fontSize="28px" />
+        <div className="tech-icons-text">Visual Studio</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons ">
-        <img src={chrome} alt="Chrome" className="tech-icon-images" />
-        <div className="tech-icons-text">Google Chrome</div>
+        <SiVisualstudiocode fontSize="28px" />
+        <div className="tech-icons-text">VS Code</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons ">
-        <img src={vsCode} alt="vsCode" className="tech-icon-images" />
-        <div className="tech-icons-text">Vs Code</div>
+        <img src={SQL} alt="SQL Server" className="tech-icon-images" />
+        <div className="tech-icons-text">SSMS / SQL Server</div>
       </Col>
-
       <Col xs={4} md={2} className="tech-icons ">
-        <img src={intelliJ} alt="go" className="tech-icon-images" />
-        <div className="tech-icons-text">IntelliJ</div>
+        <SiPostman fontSize="28px" />
+        <div className="tech-icons-text">Postman</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons ">
+        <SiGit fontSize="28px" />
+        <div className="tech-icons-text">Git</div>
       </Col>
     </Row>
   );
