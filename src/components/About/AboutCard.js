@@ -11,10 +11,11 @@ function AboutCard() {
             Hi everyone! I’m <span className="purple">Mohamed Ragheb Omer</span>{" "}
             from <span className="purple">Egypt</span>.
             <br />
-            I’m a <span className="purple">ASP.NET Core Backend Developer</span>
+            I’m a{" "}
+            <span className="purple">ASP.NET Core Backend Developer </span>
             who enjoys building strong, clean, and scalable systems.
             <br />I built a solid foundation in{" "}
-            <span className="purple">C++</span>
+            <span className="purple">C++ </span>
             before moving into <span className="purple">C#</span>, which helped
             me understand programming deeply from the start.
             <br />
