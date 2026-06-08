@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import bankDashboard from "../../Assets/Projects/bank-dashboard.png";
 import dvldDashboard from "../../Assets/Projects/dvld-dashboard.png";
-import smsSwagger from "../../Assets/Projects/sms-swagger.png";
+import smsSwagger from "../../Assets/Projects/sms-swagger2.png";
 
 function Projects() {
   return (
