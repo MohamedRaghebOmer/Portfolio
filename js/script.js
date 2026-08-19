@@ -251,9 +251,23 @@
       function (e) {
         x = e.clientX;
         y = e.clientY;
-        cursor.classList.add("is-visible");
-        if (!raf) {
-          raf = requestAnimationFrame(moveCursor);
+
+        var scrollbarWidth =
+          window.innerWidth - document.documentElement.clientWidth;
+
+        var isOverScrollbar =
+          scrollbarWidth > 0 && e.clientX >= window.innerWidth - scrollbarWidth;
+
+        cursor.classList.toggle("is-hidden", isOverScrollbar);
+
+        if (!isOverScrollbar) {
+          cursor.classList.add("is-visible");
+
+          if (!raf) {
+            raf = requestAnimationFrame(moveCursor);
+          }
+        } else {
+          cursor.classList.remove("is-visible");
         }
       },
       { passive: true },
@@ -266,10 +280,12 @@
     var hoverTargets = qsa(
       "a, button, .skill-badge, .stat-card, .project-card",
     );
+
     hoverTargets.forEach(function (el) {
       el.addEventListener("mouseenter", function () {
         cursor.classList.add("is-hovering");
       });
+
       el.addEventListener("mouseleave", function () {
         cursor.classList.remove("is-hovering");
       });

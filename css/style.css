@@ -79,6 +79,7 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: var(--header-h);
+  scrollbar-color: #4deeea transparent;
 }
 
 img,
@@ -1578,6 +1579,10 @@ textarea:focus-visible {
   width: 30px;
   height: 30px;
   background: var(--accent-violet);
+}
+
+.cursor-dot.is-hidden {
+  opacity: 0;
 }
 
 /* ===================================================================
