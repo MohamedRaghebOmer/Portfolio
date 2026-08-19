@@ -787,7 +787,7 @@ textarea:focus-visible {
 .hero-code-card {
   position: absolute;
   bottom: -6%;
-  left: -8%;
+  left: -10%;
   width: 252px;
   background: var(--surface);
   border: 1px solid var(--border-strong);
@@ -857,7 +857,7 @@ textarea:focus-visible {
 .hero-ui-card {
   position: absolute;
   top: -7%;
-  right: -9%;
+  right: -4%;
   width: 190px;
   background: var(--surface);
   border: 1px solid var(--border-strong);
@@ -1696,9 +1696,17 @@ textarea:focus-visible {
     opacity: 1;
     pointer-events: auto;
   }
+
+  .hero-ui-card {
+    right: -6px;
+  }
+
+  .hero-code-card {
+    left: -2%;
+  }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 520px) {
   .hero-code-card,
   .hero-ui-card {
     display: none;
@@ -1710,6 +1718,12 @@ textarea:focus-visible {
 
   .project-links {
     flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 730px) {
+  .hero-code-card {
+    width: 218px;
   }
 }
 
