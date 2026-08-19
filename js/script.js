@@ -10,6 +10,7 @@
    7. Custom cursor
    8. Contact form (mailto)
    9. Footer year
+   10. Scroll to top
    =================================================================== */
 (function () {
   "use strict";
@@ -332,5 +333,29 @@
     if (yearEl) {
       yearEl.textContent = new Date().getFullYear();
     }
+  })();
+
+  /* -----------------------------------------------------------------
+     10. SCROLL TO TOP
+     ----------------------------------------------------------------- */
+  (function scrollTopModule() {
+    var btn = qs("#scrollTopBtn");
+    if (!btn) return;
+
+    var SHOW_AFTER = 480; /* px scrolled before the button appears */
+
+    function updateVisibility() {
+      btn.classList.toggle("is-visible", window.scrollY > SHOW_AFTER);
+    }
+
+    updateVisibility();
+    window.addEventListener("scroll", updateVisibility, { passive: true });
+
+    btn.addEventListener("click", function () {
+      window.scrollTo({
+        top: 0,
+        behavior: prefersReducedMotion ? "auto" : "smooth",
+      });
+    });
   })();
 })();

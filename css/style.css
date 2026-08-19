@@ -1531,6 +1531,59 @@ textarea:focus-visible {
   color: var(--accent-cyan);
 }
 
+/* Scroll to top button */
+.scroll-top-btn {
+  position: fixed;
+  right: clamp(1.1rem, 4vw, 2rem);
+  bottom: clamp(1.1rem, 4vw, 2rem);
+  width: 46px;
+  height: 46px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--gradient-primary);
+  color: #05060a;
+  box-shadow: 0 8px 24px rgba(var(--accent-violet-rgb), 0.35);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(12px);
+  transition:
+    opacity var(--dur-fast) var(--ease),
+    transform var(--dur-fast) var(--ease),
+    box-shadow var(--dur-fast) var(--ease),
+    visibility 0s linear var(--dur-fast);
+  z-index: 85;
+}
+
+.scroll-top-btn.is-visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  transition:
+    opacity var(--dur-fast) var(--ease),
+    transform var(--dur-fast) var(--ease),
+    box-shadow var(--dur-fast) var(--ease);
+}
+
+.scroll-top-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 32px rgba(var(--accent-violet-rgb), 0.45);
+}
+
+.scroll-top-btn:focus-visible {
+  border-radius: 50%;
+}
+
+.scroll-top-btn svg {
+  width: 19px;
+  height: 19px;
+  transition: transform var(--dur-fast) var(--ease);
+}
+
+.scroll-top-btn:hover svg {
+  transform: translateY(-2px);
+}
+
 /* Hide the native cursor on desktop/fine-pointer devices so only the
    custom dot shows. Scoped to (hover: hover) and (pointer: fine) so
    touch devices keep their normal behavior (see media query below too). */
@@ -1943,6 +1996,10 @@ textarea:focus-visible {
 [data-theme="light"] .arch-core-code,
 [data-theme="light"] .skill-glyph,
 [data-theme="light"] .nav-mobile-cv {
+  color: #ffffff;
+}
+
+[data-theme="light"] .scroll-top-btn {
   color: #ffffff;
 }
 
